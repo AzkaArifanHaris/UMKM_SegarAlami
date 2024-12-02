@@ -30,7 +30,7 @@
             <!-- Input Harga -->
             <div class="mb-4">
                 <label class="block text-sm font-medium">Harga</label>
-                <input type="date" name="harga" class="block w-full mt-1 border-gray-300 rounded-md" value="{{ old('harga') }}" />
+                <input type="text" name="harga" class="block w-full mt-1 border-gray-300 rounded-md" value="{{ old('harga') }}" />
             </div>
               <!-- Input Deskripsi -->
             <div class="mb-4">
